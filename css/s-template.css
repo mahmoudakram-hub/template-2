@@ -383,7 +383,7 @@ header .form i {
 /* end services */
 /* start design */
 .design {
-    background-image: url(/images/design-features.jpg);
+    background-image: url(../images/design-features.jpg);
     background-size: cover;
     height: 600px;
     position: relative;
@@ -619,7 +619,7 @@ header .form i {
     position: relative;
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
-    background-image: url(/images/stats.png);
+    background-image: url(../images/stats.png);
     background-size: cover;
     text-align: center;
 }
@@ -851,7 +851,7 @@ header .form i {
 .quate {
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
-    background-image: url(/images/quote.jpg);
+    background-image: url(../images/quote.jpg);
     background-size: cover;
     position: relative;
     text-align: center;
@@ -877,13 +877,15 @@ header .form i {
     font-size: 30px;
     margin: 0 auto 20px;
 }
-.quate .container q::after{
-    content:"\f10e";
+
+.quate .container q::after {
+    content: "\f10e";
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
 }
-.quate .container q::before{
-    content:"\f10d";
+
+.quate .container q::before {
+    content: "\f10d";
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
 }
@@ -985,12 +987,13 @@ header .form i {
     margin: 0 auto;
     border-radius: 28px;
     color: black;
-    transition:0.3s ease-in-out;
-    
+    transition: 0.3s ease-in-out;
+
 }
+
 .pricing .container .plans .plan .footer a:hover {
     background-color: var(--main-color);
-    color:white ;
+    color: white;
 }
 
 .pricing .container .contact {
@@ -1018,7 +1021,7 @@ header .form i {
     position: relative;
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
-    background-image: url(/images/subscribe.jpg);
+    background-image: url(../images/subscribe.jpg);
     background-size: cover;
     color: white;
 }
@@ -1045,6 +1048,7 @@ header .form i {
         flex-direction: column;
     }
 }
+
 .email .container .form {
     width: 500px;
     max-width: 100%;
@@ -1052,7 +1056,7 @@ header .form i {
     position: relative;
 }
 
-.email .container .form i{
+.email .container .form i {
     position: absolute;
     top: 28px;
     left: 18px;
@@ -1064,7 +1068,7 @@ header .form i {
     padding: 20px 20px 20px 60px;
     background-color: transparent;
     border: 2px white solid;
-    border-right:none ;
+    border-right: none;
     caret-color: white;
     width: calc(100% - 138px);
     outline-style: none;
@@ -1074,7 +1078,7 @@ header .form i {
 .email .container .form .s-button {
     text-transform: uppercase;
     border: 2px white solid;
-    border-left:none ;
+    border-left: none;
     background-color: var(--main-color);
     padding: 10px 20px;
     width: 138px;
@@ -1088,11 +1092,13 @@ header .form i {
     line-height: 1.5;
     font-weight: normal;
 }
+
 @media (max-width :991px) {
     .email .container .form {
         margin-bottom: 40px;
     }
-    .email .container p{
+
+    .email .container p {
         display: block;
         text-align: center;
         padding: 0 20px;
@@ -1101,36 +1107,39 @@ header .form i {
 
 /* end email */
 /* start contact-us */
-.contact-us{
+.contact-us {
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
 }
 
-.contact-us .content{
+.contact-us .content {
     display: flex;
     flex-wrap: wrap;
 }
-.contact-us .content .f-con{
+
+.contact-us .content .f-con {
     display: flex;
     flex-direction: column;
     flex-basis: 70%;
     margin-right: 50px;
 }
 
-.contact-us .content .f-con .main-input{
+.contact-us .content .f-con .main-input {
     padding: 15px;
     border: 1px var(--sub-content-color) solid;
     margin-bottom: 20px;
 }
-.contact-us .content .f-con .message{
+
+.contact-us .content .f-con .message {
     height: 300px;
     border: 1px var(--sub-content-color) solid;
     padding: 20px;
 }
-.contact-us .content .f-con .main-button{
+
+.contact-us .content .f-con .main-button {
     border: none;
     width: fit-content;
-    padding:20px;
+    padding: 20px;
     background-color: var(--main-color);
     text-align: center;
     color: white;
@@ -1138,49 +1147,57 @@ header .form i {
     align-self: flex-end;
 }
 
-.contact-us .info > h4{
+.contact-us .info>h4 {
     text-transform: uppercase;
     margin-bottom: 20px;
 }
 
-.contact-us .info >span{
+.contact-us .info>span {
     color: #777;
     display: block;
     margin-bottom: 15px;
 }
-.contact-us .info h4:nth-child(4){
+
+.contact-us .info h4:nth-child(4) {
     margin-top: 60px;
 }
-.contact-us .info address{
+
+.contact-us .info address {
     line-height: 2;
     color: #777;
 }
+
 @media (max-width:767px) {
-    .contact-us .content .f-con{
+    .contact-us .content .f-con {
         flex-basis: 100%;
         margin: 0;
     }
+
     .contact-us .content {
         flex-direction: column-reverse;
     }
-    .contact-us .info{
+
+    .contact-us .info {
         text-align: center;
     }
-    .contact-us .info address{
+
+    .contact-us .info address {
         margin-bottom: 30px;
     }
 }
+
 /* end contact-us */
 /* start footer */
-.foot{
+.foot {
     position: relative;
     padding-top: var(--section-padding);
     padding-bottom: 30px;
     background-image: url(/images/subscribe.jpg);
-    background-size:cover ;
+    background-size: cover;
     text-align: center;
 }
-.foot::before{
+
+.foot::before {
     content: "";
     width: 100%;
     height: 100%;
@@ -1190,7 +1207,7 @@ header .form i {
     left: 0;
 }
 
-.foot .container{
+.foot .container {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -1198,28 +1215,36 @@ header .form i {
     align-items: center;
     color: white;
 }
-.foot .container img{
+
+.foot .container img {
     margin-bottom: 40px;
 }
-.foot .container .social{
+
+.foot .container .social {
     padding: 30px;
     margin-bottom: 50px;
 }
-.foot .container .social i{
+
+.foot .container .social i {
     padding: 15px;
 }
-.foot .container .social h3{
+
+.foot .container .social h3 {
     text-transform: uppercase;
     font-weight: normal;
 }
-.foot .container .social hr{
+
+.foot .container .social hr {
     margin: 5px 0;
 }
-.foot .container p{
+
+.foot .container p {
     font-size: 15px;
 }
-.foot .container p span{
-    color:var(--main-color);
+
+.foot .container p span {
+    color: var(--main-color);
     font-weight: bold;
 }
+
 /* end footer */
