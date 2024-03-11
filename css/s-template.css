@@ -29,6 +29,10 @@ ul {
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 .container {
     margin-left: auto;
     margin-right: auto;
@@ -463,6 +467,12 @@ header .form i {
 
 .portfolio .choices ul li {
     padding: 10px;
+
+    a {
+        font-size: 20px;
+        font-weight: bold;
+        color: black;
+    }
 }
 
 .portfolio .choices ul .active {
